@@ -35,14 +35,16 @@ seperate but similar data source that is Google Search Trends. Our initial
 hypothesis was that chilling effects do indeed happen and will be more 
 pronounced in the US and in Arabic countries than in countries being less 
 affected by the "war on terror" and therefore presumably the NSA surveillance.
-This led us to ask the following 3 research questions
+This led us to ask the following 2 research questions
 
 1. Are the observed chilling effects only present on Wikipedia or can they 
 also be observed on Google Trends?
+2. Are the chilling effects long-lasting, or do they disappear after an 
+extended period of time?
+
+<!---
 2. What are the different patterns of chilling effects accross different 
 languages?
-<!--- 3. Are the chilling effects long-lasting, or do they disappear after an 
-extended period of time?
 -->
 
 
@@ -70,4 +72,29 @@ not observe any significant ones that had significant affects on any single
 datapoint.
 
 ![indv-goog-plot](assets/img/indv-google-plots.jpeg)
+
+This weakens the initial hypothesis somewhat and raises some new questions on 
+the possible reasons of such an unexpected discrepancy between Google Search and 
+Wikipedia. These effects are largely based on people's perceived levels of risks 
+and not the actual risks posed. For our hypothesis to still stand there needs to
+some reason people are assuming that search queries involving these terms do 
+not present the same perceived risk. One possible explanation could be that 
+users perceive Google searches, involving mostly results from more mainstream
+sources and media outlets, with less worry  opposed to Wikipedia which might be 
+perceived as a less legitimate and a shadier source of information, especially 
+given the widespread campaign in the past of western schools to dissuade 
+students from using Wikipedia as a valid source of information in their 
+schoolwork.
+
+### 2. Are the chilling effects long term?
+One of the conclusions of Penny's paper was that there needed to be longer term 
+studies in order to establish a clear chilling effect consequence. A considerable 
+amount of time has passed since his paper was published and Wikipedia has kept 
+publishing their pageview data. In order to also offer an even better overall 
+picture, we not only took the remaining data since the paper was published 
+until the present, but also take 2011 data which was not included in the paper 
+for an even more robust historical view of its evolution. Sadly, there was a 
+widespread Wikipedia outage between June and December 2014 causing inconsistent 
+data. We decided to represent this data in our graph but disregard it in the 
+regression line.
 
