@@ -81,6 +81,55 @@ As such, we will consider the analysis when limiting our data to the end of 2015
 The missing data before this period should not be a problem for our analysis as we're looking for changes in trends and not absolute data.
 The proportion of missing articles seems consistent throughout the months and so shouldn't change any trends. -->
 
+<html><head>
+    <style>
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+.dropdown-wrapper > div {
+    border: 1px solid;
+}
+
+.dropdown-wrapper-child {
+    margin: auto;
+    display: flex;
+}
+
+.dropdown-wrapper-child div {
+    flex-grow: 1;
+    width: 0;
+}
+
+.dropdown-wrapper {
+    display: inline-block;
+}
+    </style>
+
+</head><body><div class="dropdown-wrapper">
+    <select class="dropdown-wrapper-child" id="ProjectsDropdown">
+        <option value="assets/html/sample_plot.html">Sample1</option>
+        <option value="assets/html/sample_plot.html">Sample1</option>
+        <option value="assets/html/sample_plot.html">Sample1</option>
+        <option value="assets/html/sample_plot.html">Sample1</option>
+        <option value="assets/html/sample_plot.html">Sample1</option>
+        <option value="assets/html/sample_plot.html">Sample1</option>
+    </select>
+</div>
+ <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/html/sample_plot.html" ></object>
+
+<script>
+    function loadProjectPlot() {
+        var plot = document.getElementById("plot");
+        plot.data = this.value;
+        return false;
+    }
+document.getElementById("ProjectsDropdown").onchange = loadProjectPlot;
+</script>
+
+</body></html>
+
+
 ![extended-wiki](assets/img/extended-wiki.png)
 
 The results we found were surprising, not only did we not see any long term chilling effects, but the rebound to pre-June 2013 levels happens very quickly and suddenly after the last data point of the paper.
