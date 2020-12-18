@@ -2,7 +2,7 @@
 layout: page
 title: Chilling Effects
 subtitle: The Effects of Government Surveillance on Wikipedia and Google
-cover-img: "assets/img/luismolinero161100068.jpg"
+cover-img: "assets/img/nsa.png"
 ---
 > As the global digitalization advanced at a steadily increasing speed, governments have tried their absolute best to keep up with the rate of change.
 This has entailed dramatic updates to one of the most tried forms of government work: surveillance and espionage.  
