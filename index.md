@@ -63,57 +63,48 @@ In fact, a lot of articles show 0 pageviews for some days before 2016, which eve
 Accordingly, we decided to disregard these months in our regression analysis to avoid biasing the results.
 Our analysis will also be two fold, one until the end of 2015 and another untill 2019, this is to take into account the change in API and the possibility of inconsistent data. -->
 
-<!---
-<html><head>
-    <style>
-body {
-    margin-left: auto;
-    margin-right: auto;
-}
-.dropdown-wrapper > div {
-    border: 1px solid;
-}
-
-.dropdown-wrapper-child {
-    margin: auto;
-    display: flex;
-}
-
-.dropdown-wrapper-child div {
-    flex-grow: 1;
-    width: 0;
-}
-
-.dropdown-wrapper {
-    display: inline-block;
-}
-    </style>
-
-</head><body><div class="dropdown-wrapper">
-    <select class="dropdown-wrapper-child" id="ProjectsDropdown">
-        <option value="assets/html/sample_plot.html">Sample1</option>
-        <option value="assets/html/sample_plot.html">Sample1</option>
-        <option value="assets/html/sample_plot.html">Sample1</option>
-        <option value="assets/html/sample_plot.html">Sample1</option>
-        <option value="assets/html/sample_plot.html">Sample1</option>
-        <option value="assets/html/sample_plot.html">Sample1</option>
-    </select>
-</div>
- <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/html/sample_plot.html" ></object>
-
-<script>
-    function loadProjectPlot() {
-        var plot = document.getElementById("plot");
-        plot.data = this.value;
-        return false;
-    }
-document.getElementById("ProjectsDropdown").onchange = loadProjectPlot;
-</script>
-
-</body></html>
--->
-
-![extended-wiki](assets/img/extended-wiki.png)
+<html>
+    <head>
+        <style>
+            body {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .dropdown-wrapper > div {
+                border: 1px solid;
+            }
+            .dropdown-wrapper-child {
+                margin: auto;
+                display: flex;
+            }
+            .dropdown-wrapper-child div {
+                flex-grow: 1;
+                width: 0;
+            }
+            .dropdown-wrapper {
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dropdown-wrapper">
+            <select class="dropdown-wrapper-child" id="ProjectsDropdown">
+                <option value="assets/interactive_plots/wiki_all.html">Data until 2015</option>
+                <option value="assets/interactive_plots/wiki_all_long.html">Data until 2019</option>
+            </select>
+        </div>
+        <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/interactive_plots/wiki_all.html" ></object>
+        <script>
+            function loadProjectPlot() {
+                var plot = document.getElementById("plot");
+                plot.data = this.value;
+                return false;
+            }
+            document.getElementById("ProjectsDropdown").onchange = loadProjectPlot;
+        </script>
+    </body>
+</html>
+<!--- ![extended-wiki](assets/img/extended-wiki.png) -->
 
 The results for both analyses were surprising, not only did we not see any long term chilling effects, but pageviews trend rebounds to a pre-June 2013 slope very quickly and suddenly after the last data point of the paper.
 When stopping at 2015, we still see a gradually less pronounced decrease in pageviews as time goes on. Extending the data till 2019 shows an almost identical slope to pre-June 2013 levels. Although the missing data might mean the absolute number of pageviews pre-2013 was still higher, the slope is consistent and seems to have completely recovered, indicating a largely diminished chilling effect and a return to normal behavior.
@@ -190,7 +181,48 @@ Therefore, we're going straight to the source to try and gather a more represent
 
 After applying the same analysis, this is the view we got:
 
-![google-plot](assets/img/google-plot.png)
+<html>
+    <head>
+        <style>
+            body {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .dropdown-wrapper > div {
+                border: 1px solid;
+            }
+            .dropdown-wrapper-child {
+                margin: auto;
+                display: flex;
+            }
+            .dropdown-wrapper-child div {
+                flex-grow: 1;
+                width: 0;
+            }
+            .dropdown-wrapper {
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dropdown-wrapper">
+            <select class="dropdown-wrapper-child" id="ProjectsDropdown">
+                <option value="assets/interactive_plots/google_trends_short.html">Data until 2015</option>
+                <option value="assets/interactive_plots/google_trends_long.html">Data until 2019</option>
+            </select>
+        </div>
+        <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/interactive_plots/google_trends_short.html" ></object>
+        <script>
+            function loadProjectPlot() {
+                var plot = document.getElementById("plot");
+                plot.data = this.value;
+                return false;
+            }
+            document.getElementById("ProjectsDropdown").onchange = loadProjectPlot;
+        </script>
+    </body>
+</html>
+<!--- ![google-plot](assets/img/google-plot.png) -->
 
 <!---
  <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/html/sample_plot.html" ></object>
@@ -206,7 +238,6 @@ This really goes against the author's claim and raises some new ideas about the 
 Chilling effects are largely based on people's perceived levels of risk, and not on the actual risks that they might face.
 For the author's claim to still stand, there needs to exist some reason why people are assuming that search queries involving these terms do not present the same level of risk as accessing a Wikipedia article.
 <!-- I'm not sure I like this part, it's not really relevant and Wikipedia is a reliable source, teachers just don't want people to copy things without checking them -->
-One possible explanation could be that users perceive Google searches, involving mostly results from more mainstream sources and media outlets, with less worry  opposed to Wikipedia which might be perceived as a less legitimate and a shadier source of information, especially given the widespread campaign in the past of western schools to dissuade students from using Wikipedia as a valid source of information in their schoolwork.
 
 Another possible explanation would be the introduction of the Google features "in-depth articles" and Google Hummingbird, which improve the search engine's knowledge graph considerably.
 Google knowledge graphs show information about people and events, usually from a topic's Wikipedia article, right in the search page and therefore might cause a lot of users to not need to visit the full Wikipedia page.
