@@ -40,7 +40,6 @@ Penney's analysis seemed to prove the existence of chilling effects by clearly s
 Nevertheless, we wanted to dig further into the topic and take a closer look: can we observe similar chilling effects when considering a longer time range? Do other data sources support this theory of chilling effects even more? Or could it be just an unlucky correlation that Penney found?
 
 To answer these questions, we divided our project into three targeted questions, that we will answer individually:
-
 1. Are the chilling effects on Wikipedia long-lasting, or do they disappear after some period of time?
 2. Are these chilling effects on Wikipedia language-dependent? What different reactions to the NSA revelations are there?
 3. Are the observed chilling effects only present on Wikipedia or can they also be seen on Google Trends?
