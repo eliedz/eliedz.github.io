@@ -126,9 +126,7 @@ It is also worth considering that the U.S. residents with the highest probabilit
 In addition, the leaks themselves directly mention that the espionage was not targeted specifically at U.S. citizens or even U.S. residents, but mainly at foreign residents.
 
 As such, we analysed the pageviews for the same two groups of Wikipedia articles, but translated into 5 additional languages: French, German, Italian, Portuguese and Spanish.
-
-
-
+You can interactively select a language below and see what the resulting trends are before and after the NSA revelations:
 <html>
     <head>
         <style>
