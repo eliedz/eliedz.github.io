@@ -162,9 +162,8 @@ You can interactively select a language below and see what the resulting trends 
     </body>
 </html>
 
-<!-- REDO THIS PART ONCE RESULTS ARE UPDATED -->
 
-To our continued surprise, we could not notice any significant chilling effects or downward trend that was drastically different to the comparator group. Some languages even showing the comparator group articles with a larger decrease in pageviews following June 2013 compared to the terrorism topics.   
+To our continued surprise, we could not notice any significant chilling effects or downward trend that was drastically different to the comparator group. French does present a slight downward trend but considerably smaller than the one seen in English articles. Other languages even show the comparator group articles with a larger decrease in pageviews following June 2013 compared to the terrorism topics.   
 
 Even though there are some obvious outliers in each language, we do not believe these could explain the lack of chilling effects symptoms as seen in the paper, some even have a higher average monthly pageview than prior to the leaks. The plot showing all language views aggregated should allow for the outliers to cancel each other out as they happen on different months. But, as can be seen, it also paints a similar picture and again makes us reconsider Penney's hypothesis.
 
@@ -195,7 +194,7 @@ This has already been widely believed to have caused a [considerable decrease in
 
 
 ## What does this tell us
-Neither the Google Trends data nor the extended Wikipedia data support our (and the author's) hypothesis.
+Our analyses do not show any chilling effects as pronounced or significant as English Wikipedia over the original time period. Neither the Google Trends data nor the extended Wikipedia data support the author's hypothesis.
 In the best case scenario, the chilling effects only happen short term but eventually diminish after some time.
 Another possible theory would be that these pageview drops are because of the introduction of new features to Google's search function that circumvents people's need to visit Wikipedia pages.
 This caused a significant drop at the launch of the feature and then the pageviews started to increase again along with general internet usage. 
