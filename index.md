@@ -128,55 +128,53 @@ In addition, the leaks themselves directly mention that the espionage was not ta
 As such, we analysed the pageviews for the same two groups of Wikipedia articles, but translated into 5 additional languages: German, French, Spanish, Italian and Portuguese.
 
 
-<!---
-<html><head>
-    <style>
-body {
-    margin-left: auto;
-    margin-right: auto;
-}
-.dropdown-wrapper > div {
-    border: 1px solid;
-}
 
-.dropdown-wrapper-child {
-    margin: auto;
-    display: flex;
-}
-
-.dropdown-wrapper-child div {
-    flex-grow: 1;
-    width: 0;
-}
-
-.dropdown-wrapper {
-    display: inline-block;
-}
-    </style>
-
-</head><body><div class="dropdown-wrapper">
-    <select class="dropdown-wrapper-child" id="ProjectsDropdown">
-        <option value="assets/html/sample_plot.html">Sample1</option>
-        <option value="assets/html/sample_plot.html">Sample1</option>
-        <option value="assets/html/sample_plot.html">Sample1</option>
-        <option value="assets/html/sample_plot.html">Sample1</option>
-        <option value="assets/html/sample_plot.html">Sample1</option>
-        <option value="assets/html/sample_plot.html">Sample1</option>
-    </select>
-</div>
- <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/html/sample_plot.html" ></object>
-
-<script>
-    function loadProjectPlot() {
-        var plot = document.getElementById("plot");
-        plot.data = this.value;
-        return false;
-    }
-document.getElementById("ProjectsDropdown").onchange = loadProjectPlot;
-</script>
-
-</body></html>
--->
+<html>
+    <head>
+        <style>
+            body {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .dropdown-wrapper > div {
+                border: 1px solid;
+            }
+            .dropdown-wrapper-child {
+                margin: auto;
+                display: flex;
+            }
+            .dropdown-wrapper-child div {
+                flex-grow: 1;
+                width: 0;
+            }
+            .dropdown-wrapper {
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dropdown-wrapper">
+            <select class="dropdown-wrapper-child" id="ProjectsDropdown">
+                <option value="assets/interactive_plots/wiki_all.html">All 6 languages</option>
+                <option value="assets/interactive_plots/wiki_en.html">English</option>
+                <option value="assets/interactive_plots/wiki_fr.html">French</option>
+                <option value="assets/interactive_plots/wiki_de.html">German</option>
+                <option value="assets/interactive_plots/wiki_it.html">Italian</option>
+                <option value="assets/interactive_plots/wiki_es.html">Spanish</option>
+                <option value="assets/interactive_plots/wiki_pt.html">Portuguese</option>
+            </select>
+        </div>
+        <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/html/sample_plot.html" ></object>
+        <script>
+            function loadProjectPlot() {
+                var plot = document.getElementById("plot");
+                plot.data = this.value;
+                return false;
+            }
+            document.getElementById("ProjectsDropdown").onchange = loadProjectPlot;
+        </script>
+    </body>
+</html>
 
 ![all-lang-plot](assets/img/all-lang-plot.jpeg)
 
