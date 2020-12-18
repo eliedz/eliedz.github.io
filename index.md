@@ -2,7 +2,8 @@
 layout: page
 title: Chilling Effects
 subtitle: The Effects of Government Surveillance on Wikipedia and Google
-cover-img: "assets/img/nsa.png"
+cover-img: "assets/img/snow.jpg"
+full-width: True
 ---
 > As the global digitalization advanced at a steadily increasing speed, governments have tried their absolute best to keep up with the rate of change.
 This has entailed dramatic updates to one of the most tried forms of government work: surveillance and espionage.  
@@ -10,11 +11,14 @@ This has entailed dramatic updates to one of the most tried forms of government 
 > While these activities were previously limited by the very high human capital required, digitization has allowed for surveillance to break free of these barriers and scale on machines instead of humans.
 As a matter of fact, it is easier than ever for governments to not only to spy on specific targets or their own citizens, but also on individuals living in entirely other regions of the world.
 
+
 -----------------------
 ## "In a legal context, a chilling effect is the inhibition or discouragement of the legitimate exercise of natural and legal rights by the threat of legal sanction"
 Following Edward Snowden's June 2013 leaks of classified U.S. government documents, the world started to realize the extent of the NSA's surveillance network.
 The public outrage was massive in the beginning, but as time passed the topic began to vanish from the front pages of newspapers.
 Most importantly, the NSA leaks did not seem to have negative repercussions on the extent of online surveillance.
+
+![nsa](assets/img/nsa.jpeg)
 
 Online privacy is a controversial topic, and one might ask oneself why the surveillance conducted by the NSA is such a bad thing, after all.
 Some argue that online surveillance is beneficial for security and terrorism prevention.
@@ -162,7 +166,7 @@ You can interactively select a language below and see what the resulting trends 
                 <option value="assets/interactive_plots/wiki_es.html">Spanish</option>
             </select>
         </div>
-        <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/html/sample_plot.html" ></object>
+        <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/interactive_plots/wiki_all.html" ></object>
         <script>
             function loadProjectPlot() {
                 var plot = document.getElementById("plot");
