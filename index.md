@@ -125,7 +125,7 @@ Although the NSA is a U.S. Government agency, the U.S.' influence as a world "su
 It is also worth considering that the U.S. residents with the highest probability of being monitored are immigrants and expats who might not necessarily use English Wikipedia.
 In addition, the leaks themselves directly mention that the espionage was not targeted specifically at U.S. citizens or even U.S. residents, but mainly at foreign residents.
 
-As such, we analysed the pageviews for the same two groups of Wikipedia articles, but translated into 5 additional languages: German, French, Spanish, Italian and Portuguese.
+As such, we analysed the pageviews for the same two groups of Wikipedia articles, but translated into 5 additional languages: French, German, Italian, Portuguese and Spanish.
 
 
 
@@ -160,8 +160,8 @@ As such, we analysed the pageviews for the same two groups of Wikipedia articles
                 <option value="assets/interactive_plots/wiki_fr.html">French</option>
                 <option value="assets/interactive_plots/wiki_de.html">German</option>
                 <option value="assets/interactive_plots/wiki_it.html">Italian</option>
-                <option value="assets/interactive_plots/wiki_es.html">Spanish</option>
                 <option value="assets/interactive_plots/wiki_pt.html">Portuguese</option>
+                <option value="assets/interactive_plots/wiki_es.html">Spanish</option>
             </select>
         </div>
         <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/html/sample_plot.html" ></object>
@@ -175,8 +175,6 @@ As such, we analysed the pageviews for the same two groups of Wikipedia articles
         </script>
     </body>
 </html>
-
-![all-lang-plot](assets/img/all-lang-plot.jpeg)
 
 <!-- REDO THIS PART ONCE RESULTS ARE UPDATED -->
 
