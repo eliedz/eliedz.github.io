@@ -145,7 +145,7 @@ You can interactively select a language below and see what the resulting trends 
     </head>
     <body>
         <div class="dropdown-wrapper">
-            <select class="dropdown-wrapper-child" id="ProjectsDropdown">
+            <select class="dropdown-wrapper-child" id="ProjectsDropdown1">
                 <option value="assets/interactive_plots/wiki_all.html">All 6 languages</option>
                 <option value="assets/interactive_plots/wiki_en.html">English</option>
                 <option value="assets/interactive_plots/wiki_fr.html">French</option>
@@ -155,14 +155,14 @@ You can interactively select a language below and see what the resulting trends 
                 <option value="assets/interactive_plots/wiki_es.html">Spanish</option>
             </select>
         </div>
-        <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/interactive_plots/wiki_all.html" ></object>
+        <object id="plot2" style="height: 450pt;width: 100%;" type="text/html" data="assets/interactive_plots/wiki_all.html" ></object>
         <script>
             function loadProjectPlot() {
-                var plot = document.getElementById("plot");
+                var plot = document.getElementById("plot2");
                 plot.data = this.value;
                 return false;
             }
-            document.getElementById("ProjectsDropdown").onchange = loadProjectPlot;
+            document.getElementById("ProjectsDropdown1").onchange = loadProjectPlot;
         </script>
     </body>
 </html>
@@ -181,48 +181,8 @@ Therefore, we're going straight to the source to try and gather a more represent
 
 After applying the same analysis, this is the view we got:
 
-<html>
-    <head>
-        <style>
-            body {
-                margin-left: auto;
-                margin-right: auto;
-            }
-            .dropdown-wrapper > div {
-                border: 1px solid;
-            }
-            .dropdown-wrapper-child {
-                margin: auto;
-                display: flex;
-            }
-            .dropdown-wrapper-child div {
-                flex-grow: 1;
-                width: 0;
-            }
-            .dropdown-wrapper {
-                display: inline-block;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="dropdown-wrapper">
-            <select class="dropdown-wrapper-child" id="ProjectsDropdown">
-                <option value="assets/interactive_plots/google_trends_short.html">Data until 2015</option>
-                <option value="assets/interactive_plots/google_trends_long.html">Data until 2019</option>
-            </select>
-        </div>
-        <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/interactive_plots/google_trends_short.html" ></object>
-        <script>
-            function loadProjectPlot() {
-                var plot = document.getElementById("plot");
-                plot.data = this.value;
-                return false;
-            }
-            document.getElementById("ProjectsDropdown").onchange = loadProjectPlot;
-        </script>
-    </body>
-</html>
 <!--- ![google-plot](assets/img/google-plot.png) -->
+<object id="plot3" style="height: 450pt;width: 100%;" type="text/html" data="assets/interactive_plots/google_trends_long.html" ></object>
 
 <!---
  <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/html/sample_plot.html" ></object>
