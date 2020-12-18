@@ -17,7 +17,7 @@ Following Edward Snowden's June 2013 leaks of classified U.S. government documen
 The public outrage was massive in the beginning, but as time passed the topic began to vanish from the front pages of newspapers.
 Most importantly, the NSA leaks did not seem to have negative repercussions on the extent of online surveillance.
 
-![nsa](assets/img/nsa.png)
+![nsa](assets/img/nsa.jpeg)
 
 Online privacy is a controversial topic, and one might ask oneself why the surveillance conducted by the NSA is such a bad thing, after all.
 Some argue that online surveillance is beneficial for security and terrorism prevention.
