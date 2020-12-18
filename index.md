@@ -34,7 +34,7 @@ The topics were picked by combining an analysis on a sample of volunteer's perce
 The comparator group of topics were security related but not directly related to terrorism.
 Penney's analysis seemed to prove the existence of chilling effects by clearly showing a difference between the pre- and post-Snowden eras.
 
-Nevertheless, we wanted to dig further into the topic and take a closer look: can we observe similar chilling effects when considering a longer time range? Do other data sources support this theory of chilling effects even more? Or could it be that it just an unlucky correlation that Penney found?
+Nevertheless, we wanted to dig further into the topic and take a closer look: can we observe similar chilling effects when considering a longer time range? Do other data sources support this theory of chilling effects even more? Or could it be just an unlucky correlation that Penney found?
 
 To answer these questions, we divided our project into three targeted questions, that we will answer individually:
 
