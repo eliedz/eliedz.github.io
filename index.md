@@ -2,7 +2,7 @@
 layout: page
 title: Chilling Effects
 subtitle: The Effects of Government Surveillance on Wikipedia and Google
-cover-img: "assets/img/luismolinero161100068.jpg"
+cover-img: "assets/img/nsa.png"
 ---
 > As the global digitalization advanced at a steadily increasing speed, governments have tried their absolute best to keep up with the rate of change.
 This has entailed dramatic updates to one of the most tried forms of government work: surveillance and espionage.  
@@ -126,9 +126,7 @@ It is also worth considering that the U.S. residents with the highest probabilit
 In addition, the leaks themselves directly mention that the espionage was not targeted specifically at U.S. citizens or even U.S. residents, but mainly at foreign residents.
 
 As such, we analysed the pageviews for the same two groups of Wikipedia articles, but translated into 5 additional languages: French, German, Italian, Portuguese and Spanish.
-
-
-
+You can interactively select a language below and see what the resulting trends are before and after the NSA revelations:
 <html>
     <head>
         <style>
