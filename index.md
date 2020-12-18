@@ -16,10 +16,12 @@ In his 2016 paper, Jonathon W. Penney showed a considerable drop in the number o
 When controlling for other factors such as the "exogenous shock of war" (the effect of mediatized conflicts on the number of Wikipedia pageviews for the relevant topic), Penney showed not only an immediate decline in pageviews, but also a change in the trend of Wikipedia accesses over time.
 16 months before June 2013, the total number of pageviews for "terrorism" articles was increasing each month, and then right after June 2013 this trend is reversed and the total number of pageviews starts to decline.
 The author attributed this to a chilling effect on users who would avoid accessing these topics due to being afraid of being watched by the government.
+
 ![original-plot](assets/img/paper-plot-4a.png)
 
 The topics were picked by the author through a rigorous analysis of a large sample of people's perceived impressions about them, as well as a list from the Department of Homeland security classifying these as 'related to the issue of terrorism'. The author also used a comparator group of topics that are security related but not directly related to terrorism.
-In our own study, we try to verify this claim by extending the duration of the analysis, by considering Wikipedia articles in other languages than English, as well  as considering a different but similar data source that is Google Search Trends.
+In our own study, we try to verify this claim by extending the duration of the analysis, by considering Wikipedia articles in other languages than English, as well  as considering a different but similar data source that is Google Search Trends.  
+
 Our initial hypothesis is that chilling effects do indeed happen and we will still see their effects in the long term data.
 We therefore divided our project into three parts:
 
@@ -161,7 +163,9 @@ document.getElementById("ProjectsDropdown").onchange = loadProjectPlot;
 
 ![all-lang-plot](assets/img/all-lang-plot.jpeg)
 
-To our continued surprise, we could not notice any significant chilling effects or downward trend that was drastically different to the comparator group. Some languages even showing the comparator group articles having a larger decrease in pageviews following June 2013. Even though there are some obvious outliers in each language, no one thing could explain the lack of chilling effects symptoms as seen in the paper. The plot showing all language views aggregated also paints a similar picture and again makes us reconsider our initial hypothesis.
+To our continued surprise, we could not notice any significant chilling effects or downward trend that was drastically different to the comparator group. Some languages even showing the comparator group articles having a larger decrease in pageviews following June 2013.   
+
+Even though there are some obvious outliers in each language, no one thing could explain the lack of chilling effects symptoms as seen in the paper. The plot showing all language views aggregated also paints a similar picture and again makes us reconsider our initial hypothesis.
 
 ###  3. Are chilling effects also observed on Google Trends?
 Although Wikipedia articles are a very popular and widely used source of information, they usually reside at the second layer in an average person's information search.
@@ -183,7 +187,7 @@ We tried to control for exogenous shocks as well but we did not observe any sign
 This really puts into question the initial hypothesis and raises some new ideas about the possible causes of such an unexpected discrepancy between Google Search and Wikipedia.
 Chilling effects are largely based on people's perceived levels of risks and not the actual risks posed.
 For our hypothesis to still stand there needs to exist some reason people are assuming that search queries involving these terms do not present the same perceived risk. 
-One possible explanation could be that users perceive Google searches, involving mostly results from more mainstream sources and media outlets, with less worry  opposed to Wikipedia which might be perceived as a less legitimate and a shadier source of information, especially given the widespread campaign in the past of western schools to dissuade students from using Wikipedia as a valid source of information in their schoolwork.
+One possible explanation could be that users perceive Google searches, involving mostly results from more mainstream sources and media outlets, with less worry  opposed to Wikipedia which might be perceived as a less legitimate and a shadier source of information, especially given the widespread campaign in the past of western schools to dissuade students from using Wikipedia as a valid source of information in their schoolwork.  
 Another possible explanation would be the introduction of "in-depth articles" by Google as well as Google Hummingbird to their search algorithm, both updates that improve Google's knowledge graph feature considerably.
 Google Knowledge graphs show people information, usually from a topic's Wikipedia article, right in the search page and therefore might cause a lot of users to not need to visit the full Wikipedia page.
 This has already been widely believed to have caused a [considerable decrease in Wikipedia pageviews](https://www.theregister.com/2014/01/13/google_stabs_wikipedia_in_the_front) after the features were introduced.
@@ -195,7 +199,8 @@ Neither the Google Trends data nor the extended Wikipedia data support our (and 
 In the best case scenario, the chilling effects only happen short term but eventually diminish after some time.
 Another possible theory would be that these pageview drops are because of the introduction of new features to Google's search function that circumvents people's need to visit Wikipedia pages.
 This caused a significant drop at the launch of the feature and then the pageviews started to increase again along with general internet usage. 
-This would explain why a similar pattern is seen for the comparator group as well.
+This would explain why a similar phenomenon is seen for the comparator group losing a significant amount of pageviews in the same period as well.
 
-So in conclusion, the two possible scenarios are either that people do not care enough about their privacy, or Google has a really remarkable grip on how people use the web and visit website, even for other huge Websites such as Wikipedia. 
-We can't really decide which one is more concerning.
+So in conclusion, the two possible scenarios are either that people do not care enough about their privacy, or Google has a really remarkable grip on how people use the web and visit websites, even for other huge Websites such as Wikipedia.   
+
+Honestly, we can't really decide which scenario is scarier.
