@@ -4,26 +4,28 @@ title: Chilling Effects
 subtitle: The Effects of Possible Government Surveillance on Wikipedia and Google Trends
 cover-img: "assets/img/luismolinero161100068.jpg"
 ---
-> As the world continues its exponential rate of digitization, governments have tried their absolute best to keep up with the rate of change.
-This has entailed dramatic updates to the most tried and true form of government work, spying on citizens.  
+> As the global digitalization advanced at a steadily increasing speed, governments have tried their absolute best to keep up with the rate of change.
+This has entailed dramatic updates to one of the most tried forms of government work, surveillance and espionage.  
 
-> While these activities were previously hindered by the very high human capital required, digitization has allowed for surveillance to break free of these barriers and scale on machines instead of humans.
-As a matter of fact, it is now possible for governments not only to spy on specific targets or even their citizens, but also spy on citizens of other countries.
+> While these activities were previously limited by the very high human capital required, digitization has allowed for surveillance to break free of these barriers and scale on machines instead of humans.
+As a matter of fact, it is easier than ever for governments to not only to spy on specific targets or their own citizens, but also on individuals livign in entirely other regions of the world.
 
 -----------------------
 ## "In a legal context, a chilling effect is the inhibition or discouragement of the legitimate exercise of natural and legal rights by the threat of legal sanction"
-Following Edward Snowden's June 2013 leaks of classified U.S. government documents, the world finally started to realize the extent of the NSA's surveillance network.
-In his 2016 paper, Jonathon W. Penney showed a considerable drop in the number of pageviews for Wikipedia articles that discuss topics related to terrorism after the NSA revelations.
+Following Edward Snowden's June 2013 leaks of classified U.S. government documents, the world started to realize the extent of the NSA's surveillance network. The public outrage was massive in the beginning, but as the time passed the topic began to vanish from the front pages of newspapers. Most importantly, the extent of surveillance didn't relly seem to be limited, even after the data leak in June 2013.
+Online privacy is a controverse debate topic and one might want to ask why the surveillance conducted by the NSA is such a bad thing, after all. At least it seems to serve the nations security. Civil right activists and privacy advocates would strongly disagree, and one of their main arguments was phrased by Edward Snowden in the following words: "Under observation, we act less free, which means we effectively are less free." The theory of citizens acting "less free" due to their knowledge about surveillance is called the **chilling effect**. We conducted a research about the existence and form of such chilling effects, but before diving in our results, let's start with some theory:
+In the 2016 paper "Chilling Effects: Online Surveillance and Wikipedia Use", Jonathon W. Penney tried to prove the existence of chilling effects by analyzing Wikipedia page views before and after June 2013. Indeed, he showed a considerable drop in the number of pageviews for Wikipedia articles that discuss topics related to terrorism after the NSA revelations. Those topics were chosen based on a survey that showed that people would feel uncomfortable if they were certain that the government knew they are reading about them online.
 When controlling for other factors such as "exogenous shocks of war" (the effect of mediatized conflicts on the number of Wikipedia pageviews for the relevant topic), Penney showed not only an immediate decline in pageviews, but also a change in the trend of Wikipedia accesses over time.
 16 months before June 2013, the total number of monthly pageviews for "terrorism" articles was on the rise, and then right after June 2013 this trend is reversed and the total number of pageviews starts to decline.
-The author attributed this to a chilling effect on users who would avoid accessing these topics due to being afraid of being watched by the government.
+The author attributed this to a chilling effect on users and further supported this thesis by showing that, for a comparator group containing articles about similar but less privacy-sensitive topics, no such effect could be observed.
 
 ![original-plot](assets/img/paper-plot-4a.png)
 
-The topics were picked by combining an analysis on a sample of volunteer's perception of the topics as well as a curated list from the Department of Homeland security classifying these topics as 'related to the issue of terrorism'. The author also used a comparator group of topics that are security related but not directly related to terrorism.  
-In our own study, we try to verify this claim by extending the duration of the analysis, considering Wikipedia articles in other languages than English, and analysing a different but similar data source that is Google Search Trends.  
+The topics were picked by combining an analysis on a sample of volunteer's perception of the topics as well as a curated list from the Department of Homeland security classifying these topics as 'related to the issue of terrorism'. The comparator group of topics were security related but not directly related to terrorism.  
+Penney's analysis seemed to proove the existence of chilling effects by clearly showing a difference between the pre- and post-Snowden eras. Nevertheless, we wanted to dig further into the topic and take a closer look: Would we be able to observe similar effects for a longer time range an other data sources to support the theory of chilling effects even more? Or was it just an unlucky correlation that Penney found?
+In our own study, we were extending the duration of the analysis, considering Wikipedia articles in other languages than English, and also analysing Google Search Trends as an additional data source.  
 
-Our initial hypothesis being that chilling effects do indeed happen and we will still see their effects in the long term data.
+We started out with the hypothesis that chilling effects do indeed happen and we will still see their effects in the long term data, maybe even prove the existence of long-term chilling effects for a range more than just a year after a majorn event like Snowdens publication.
 We therefore divided our project into three targeted questions:
 
 1. Are the chilling effects long-lasting, or do they disappear after an extended period of time?
