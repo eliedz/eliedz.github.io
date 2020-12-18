@@ -165,7 +165,7 @@ You can interactively select a language below and see what the resulting trends 
                 <option value="assets/interactive_plots/wiki_es.html">Spanish</option>
             </select>
         </div>
-        <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/html/sample_plot.html" ></object>
+        <object id="plot" style="height: 450pt;width: 100%;" type="text/html" data="assets/interactive_plots/wiki_all.html" ></object>
         <script>
             function loadProjectPlot() {
                 var plot = document.getElementById("plot");
